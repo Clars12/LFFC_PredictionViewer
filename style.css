@@ -1,0 +1,208 @@
+
+{
+    font-family: sans-serif;
+  }
+
+.containermain {
+  max-width: 1400px;
+  height: 245px;
+  margin: auto;
+}
+
+.containerright {
+  height: 250px;
+  position: relative;
+}
+
+.containerleft {
+  height: 250px;
+  position: relative;
+  height: 225px;
+  float: left;
+  width: 45%
+}
+
+.vertcenter {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.float-right{
+  float: right;
+}
+
+.float-left{
+  float: left;
+}
+
+   #leftBox {
+    height: 225px;
+    float: left;
+    width: 45%
+   } 
+
+   #middleBox {
+    height: 225px;
+    float: left;
+    width: 10%
+   } 
+
+
+   #rightBox {
+    height: 225px;
+    float:right;
+    width: 45%;
+    
+   }
+
+   #filterBox{
+    width: 100%;
+    float: left;
+    text-align: center;
+   }
+
+.threeprevNext {
+  margin-top: -8px;
+  display: flex;
+}
+
+.sixprevNext {
+  margin-top: -15px;
+  display: flex;
+}
+
+.mainprevNext{
+display: flex;
+
+}
+
+.checkBox{
+display: block;
+
+}
+
+.content-table {
+max-width: 1500px;
+min-width: 1200px;
+margin: auto;
+border-collapse: collapse;
+font-size: 0.9em;
+border-radius: 5px 5px 0 0;
+overflow: hidden;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+background-color: #000000;
+color: #ffffff;
+text-align: left;
+font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+padding: 12px 15px;
+}
+
+.content-table tbody tr {
+border-bottom: 1px solid #ffffff;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+border-bottom: 2px solid #f3f3f3;
+}
+
+.content-table tbody tr.active-row {
+font-weight: bold;
+color: #fefcfc;
+}
+
+.schedule{
+float: inline-start;
+display: inline-block;
+}
+
+button {
+display: inline-block;
+background-color: #000000;
+padding: 8px;
+height: 30px;
+width: 100px;
+color: #ffffff;
+text-align: center;
+border: 4px;
+border-radius: 5px;
+font-size: 12px;
+cursor: pointer;
+margin: 5px;
+-webkit-transition: all 0.5s; 
+-moz-transition: all 0.5s; 
+-o-transition: all 0.5s; 
+transition: all 0.5s; 
+}
+button:hover {
+background-color: #808080;
+}
+
+label {
+display: block;
+font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,label {
+margin: 0.4rem 0;
+}
+   
+.check{
+  accent-color: black;
+}
+  a {
+    text-decoration: none;
+    text-align: center;
+    /* height: 30px; */
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+    padding: 5px 5px;
+    border: 4px;
+    border-radius: 5px;
+}
+
+a:hover {
+  background-color: #808080;
+  color: white;
+}
+
+.previous {
+  background-color: black;
+  color: white;
+}
+
+.next {
+  background-color: black;
+  color: white;
+}
+
+.Square {
+  border-radius: 50%;
+  
+}
+
+
+
+.hidden {
+  visibility: hidden
+}
+
+.row:hover {
+  /* padding-left: 2%; */
+  background-color: #d1d6d4;
+}

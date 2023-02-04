@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>LFFC_Predictions</title>
+</head>
+<body>
+    <div id = "mainBox" class = "containermain">   
+        <div id = "rightBox">
+        <div class = "containerright">
+        <div class = "vertcenter">
+        <div>
+            <div>
+                <button id = "predbutton" type="button">Get Predictions</button>
+                <input type="date" id="pred_date" name="trip-start"
+                    value= "2023-01-01"
+                    min="01-01-2023" max="12-31-2023"> 
+            </div>
+            <div>     
+                <label class = "datelabel" for="Pred_date">&nbspCycle | Prediction Date</label>
+            </div>
+        </div>
+            <div class = "mainprevNext">
+                <p>&nbsp</p>
+                <a href="#" id = "prevbutton" class="previous square">&#8249;</a>
+                <p>&nbsp</p>
+                    <div class = "checkBox">
+                        <div class = "threeprevNext">
+                         <input type="checkbox" class = "check" id="threeday">
+                         <label for="3day">&nbsp3day</label>
+                        </div>
+                        <div class = "sixprevNext">   
+                         <input type="checkbox" class = "check" id="sixday">
+                         <label for="6day">&nbsp6day</label>
+                        </div>
+                    </div>
+                    <p>&nbsp</p>
+                <a href="#" id = "nextbutton" class="next square">&#8250;</a>
+            </div>
+        </div>
+        </div>
+        </div>
+        <div id = "middleBox">
+            <h2>&nbsp</h2>
+        </div>
+        <div id = "leftBox"> 
+        <div class = "containerleft">
+        <div class = "vertcenter">
+            <p></p>
+            <img src = "images/LffcLogo.jpg" width="300" />
+        </div>
+        </div>
+        </div>
+    </div>
+    <div id = "filterBox">
+        <input type="text" id="farminput" placeholder="Search for farms..">
+        <input type="text" id="iteminput" placeholder="Search for items..">
+        <button type="button" id = "clearitemfilter">Clear Filters</button>
+    </div>
+    <table id = "table" class = "content-table"> 
+        <thead>
+            <tr>
+                <th>Supplier</th>
+                <th>QTY</th>
+                <th>SKU</th>
+                <th>Description</th>
+                <th>At_Risk</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="app.js"></script>
+    <!-- <script src="app.js?nocache=" + (new Date()).getTime(), function (data)></script> -->
+</body>
+</html>
+
